@@ -10,6 +10,7 @@
 #Daniel Backx
 #
 
+
 import getPrime
 from math import sqrt
 
