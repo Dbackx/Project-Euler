@@ -1,3 +1,6 @@
+
+
+
 def primeCheck(prime):
 	i=0
 	flag=True
