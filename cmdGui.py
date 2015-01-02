@@ -38,13 +38,13 @@ while (True):
                 if (f=='Problem-'+inputString+'.py'):
                     print(f)
                     print("It exists!")
-                    flag=True
                     try:
                         exec(open(f).read())
                         break
                     except ValueError:
                         print("Something went wrong! That problem's solution seems to have an issue. . .\n")
-            if (not flag): print("Sorry. Solution does not exist yet.")
+                    flag=True
+            if (flag): print("Sorry. Solution does not exist yet.")
 
 
 
