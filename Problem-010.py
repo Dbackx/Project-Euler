@@ -1,13 +1,11 @@
+__author__ = "Daniel Backx"
+__email__  = "dbackx11@gmail.com"
 
-#Problem 10: Summation of primes
-#
-#Source: https://projecteuler.net/problem=10
-#
-#The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
-#
-#Find the sum of all the primes below two million.
-#Daniel Backx
-#
+__problem__= 10 
+__name__   = "Summation of primes"
+__source__ = "https://projecteuler.net/problem=10"
+__example__= "The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17."
+__question = "Find the sum of all the primes below two million."
 
 
 def printList(list, listMax):

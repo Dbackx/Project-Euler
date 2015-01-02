@@ -1,15 +1,11 @@
+__author__ = "Daniel Backx"
+__email__  = "dbackx11@gmail.com"
 
-#Problem 3: Largest prime factor
-#
-#Source: https://projecteuler.net/problem=3
-#
-# The prime factors of 13195 are 5, 7, 13 and 29.
-#
-# What is the largest prime factor of the number 600851475143 ?
-#
-#Daniel Backx
-#
-
+__problem__= 3
+__name__   = "Largest prime factor"
+__source__ = "https://projecteuler.net/problem=3"
+__example__= "The prime factors of 13195 are 5, 7, 13 and 29."
+__question__= "What is the largest prime factor of the number 600851475143?"
 
 import getPrime
 from math import sqrt
