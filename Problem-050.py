@@ -69,6 +69,6 @@ while (primeCheck(sum)!=True):
 	
 	i-=1
 
-print("Number of primes", i)
+print("\nNumber of primes", i)
 print("Total =", sum)
 print ("Problem",__problem__,"took "+str(round(time.clock()-t,3))+"s to complete\n")
