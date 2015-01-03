@@ -12,8 +12,10 @@ This is the longest sum of consecutive primes that adds to a prime below one-hun
 
 The longest sum of consecutive primes below one-thousand that adds to a prime, contains 21 terms, and is equal to 953.
 """
-
 __question__= "Which prime, below one-million, can be written as the sum of the most consecutive primes?"
+
+
+import time
 
 def primeCheck(prime):
 	i=0
@@ -34,7 +36,8 @@ def nextPrime(prime):
 		prime+=2
 	return prime
 	
-max=1000000
+max = int(input('Which prime, below X, can be written as the sum of the most consecutive primes, where X='))
+t = time.clock()
 
 sum = 2
 
@@ -68,3 +71,4 @@ while (primeCheck(sum)!=True):
 
 print("Number of primes", i)
 print("Total =", sum)
+print ("Problem",__problem__,"took "+str(round(time.clock()-t,3))+"s to complete\n")

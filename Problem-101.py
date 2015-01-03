@@ -34,6 +34,10 @@ un = 1 − n + n2 − n3 + n4 − n5 + n6 − n7 + n8 − n9 + n10
 Find the sum of FITs for the BOPs.
 """
 
+import time
+
+
+t = time.clock()
 
 def f(n):
 
@@ -46,3 +50,4 @@ n=1
 fsequence = f(1), f(2), f(3), f(4)
 
 print fsequence
+print ("Problem",__problem__,"took "+str(round(time.clock()-t,3))+"s to complete\n")

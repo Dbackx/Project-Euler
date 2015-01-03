@@ -9,9 +9,10 @@ __question__= "What is the largest prime factor of the number 600851475143?"
 
 import getPrime
 from math import sqrt
+import time
 
-userInput = input('\nProblem 3: Largest prime factor\n\n\tThe prime factors of 13195 are 5, 7, 13 and 29\n\n What is the largest prime factor of the number: ')
-num = int(userInput)
+num = int(input('\nProblem 3: Largest prime factor\n\n\tThe prime factors of 13195 are 5, 7, 13 and 29\n\n What is the largest prime factor of the number: '))
+t = time.clock()
 
 
 #Currently not working, much faster & more efficient version
@@ -54,3 +55,4 @@ if False:
     if (flag): print('The largest prime factor of', num,' is: ',largestPrime, '\n\n')
     else: print('\nThere is no prime factor of:',num,'\n\n')
 
+print ("Problem",__problem__,"took "+str(round(time.clock()-t,3))+"s to complete\n")
