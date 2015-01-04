@@ -26,16 +26,15 @@ for i in range (0, digitcount):
 max = int(genPal)
 
 #Set largest palindrome to 0
-greatest = 0
-
+greatestx = 0
+greatesty = 0
 #is (Max-i)*(Max-j) palindrome? If yes, record X,Y,and X*Y
-for i in range (max, 0, -1):
+for i in range (max, (9*max)//10, -1):
 	for j in range (0, i+1):
-		x = max-i
 		y = max-j
-		if (palindromecheck(str(x*y))):
-			if (x*y>greatestx*greatesty):
-				greatestx=x
+		if (palindromecheck(str(i*y))):
+			if (i*y>greatestx*greatesty):
+				greatestx=i
 				greatesty=y
 
 print ("\nThe largest pallidrome number made from the product of two "+str(digitcount)+"-digit numbers is: "+str(greatestx)+"*"+str(greatesty)+"="+str(greatesty*greatestx))

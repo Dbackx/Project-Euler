@@ -37,7 +37,7 @@ while (True):
 
                 if (f=='Problem-'+inputString+'.py'):
                     print(f)
-                    print("It exists!")
+                    print("It exists!\n")
                     try:
                         exec(open(f).read())
                         break
