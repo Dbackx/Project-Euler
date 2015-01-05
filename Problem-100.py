@@ -25,6 +25,7 @@ prev_blue=1
 prev_total=1
 blue=0
 total=0
+solution=0
 
 	#Search until the total number of discs is over the set max
 while (2*total+1<max):
@@ -33,11 +34,13 @@ while (2*total+1<max):
 	prev_blue 	= total
 	prev_total 	= blue
 		#In Bell's Equation, when k=-1, each OTHER iteration 
+	print ("Solution:", solution, "\tTotal:", int((total+1)/2), "\tBlue:", int((blue+1)/2), "\tRed:", int((total+1)/2)-int((blue+1)/2))
 	total 		= prev_blue + 2*prev_total
 	blue 		= prev_blue + prev_total
 	prev_blue 	= total
 	prev_total 	= blue
-		#print ("Total:", int((total+1)/2), "\t\tBlue:", int((blue+1)/2), "\tRed:", int((total+1)/2)-int((blue+1)/2))
+	solution+=1
+	print ("Solution:", solution, "\tTotal:", int((total+1)/2), "\tBlue:", int((blue+1)/2), "\tRed:", int((total+1)/2)-int((blue+1)/2))
 
 
 
