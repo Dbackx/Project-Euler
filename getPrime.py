@@ -15,16 +15,14 @@ Set = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 7
 #Output: True if Prime, False if not
 #Output type: Boolean
 def primeCheck(prime):
-	flag=True
-	for i in range (2, int(prime/2)):
-		if (prime%i==0):
-			#print("-", prime, "is divisible by:", i)
-			flag=False
-	#if (flag!=False):
-	#	print(prime, "is a Prime Number")
-	#else:
-	#	print(prime, "is not a Prime Number")
-	return flag
+    if (prime%2==0):
+        return True
+    else:
+    	for i in range (3, int(prime/2), 2):
+            if (prime%i==0):
+                #print ("-", prime, "is divisible by:", i)
+                return False
+    	return True
 
 
 #Get's the next prime number
@@ -33,10 +31,12 @@ def primeCheck(prime):
 #Output: Returns the next prime number
 #Output type: int
 def nextPrime(prime):
-    if (prime==2): return (3)
+    if (prime==2): 
+        return (3)
     else:
         if (2%prime==0): prime+=1
         else: prime+=2
+        if (5%prime==0 and prime!=5): prime+=2
         while (primeCheck(prime)==False):
             prime+=2
         return prime
@@ -84,9 +84,8 @@ def getPrime(term_n):
 
         #All other primes are odd, use this method to find them
         else:
-            count=0
-            prime=1
-            for  count in range (2, term_n):
+            prime=2
+            for count in range (0, term_n+2):
                 prime = nextPrime(prime)
             return prime
 
