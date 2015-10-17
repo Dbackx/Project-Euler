@@ -3,7 +3,7 @@ __email__  = "dbackx11@gmail.com"
 
 __problem__= 6
 __name__   = "Sum square difference"
-__source__ = "https://projecteuler.net/problem=6"
+__source__ = "https://projecteuler.net/problem="+str(__problem__)
 __example__= """
 The sum of the squares of the first ten natural numbers is,
 

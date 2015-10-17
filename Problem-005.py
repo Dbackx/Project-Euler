@@ -3,7 +3,7 @@ __email__  = "dbackx11@gmail.com"
 
 __problem__= 5
 __name__   = "Smallest multiple"
-__source__ = "https://projecteuler.net/problem=5"
+__source__ = "https://projecteuler.net/problem="+str(__problem__)
 __example__= "2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder."
 __question__= "What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?"
 

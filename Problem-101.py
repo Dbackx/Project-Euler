@@ -3,7 +3,7 @@ __email__  = "dbackx11@gmail.com"
 
 __problem__= 101
 __name__   = "Optimum polynomial"
-__source__ = "https://projecteuler.net/problem=101"
+__source__ = "https://projecteuler.net/problem="+str(__problem__)
 __example__= """
 If we are presented with the first k terms of a sequence it is impossible to say with certainty the value of the next term, as there are infinitely many polynomial functions that can model the sequence.
 

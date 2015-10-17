@@ -3,7 +3,7 @@ __email__  = "dbackx11@gmail.com"
 
 __problem__= 
 __name__   = "___"
-__source__ = "https://projecteuler.net/problem="
+__source__ = "https://projecteuler.net/problem="+str(__problem__)
 __example__= "___"
 __question__= "___"
 
@@ -13,11 +13,6 @@ import time
 max = int(input(""))
 
 t = time.clock()
-
-
-
-
-
 
 
 

@@ -3,7 +3,7 @@ __email__  = "dbackx11@gmail.com"
 
 __problem__= 3
 __name__   = "Largest prime factor"
-__source__ = "https://projecteuler.net/problem=3"
+__source__ = "https://projecteuler.net/problem="+str(__problem__)
 __example__= "The prime factors of 13195 are 5, 7, 13 and 29."
 __question__= "What is the largest prime factor of the number 600851475143?"
 

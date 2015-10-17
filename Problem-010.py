@@ -3,7 +3,7 @@ __email__  = "dbackx11@gmail.com"
 
 __problem__= 10 
 __name__   = "Summation of primes"
-__source__ = "https://projecteuler.net/problem=10"
+__source__ = "https://projecteuler.net/problem="+str(__problem__)
 __example__= "The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17."
 __question = "Find the sum of all the primes below two million."
 

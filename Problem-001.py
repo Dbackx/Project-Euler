@@ -3,7 +3,7 @@ __email__  = "dbackx11@gmail.com"
 
 __problem__= 1
 __name__   = "Multiples of 3 and 5"
-__source__ = "https://projecteuler.net/problem=1"
+__source__ = "https://projecteuler.net/problem="+str(__problem__)
 __example__= "If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23."
 __question__= "Find the sum of all the multiples of 3 or 5 below 1000."
 

@@ -3,7 +3,7 @@ __email__  = "dbackx11@gmail.com"
 
 __problem__= 8
 __name__   = "Largest product in a series"
-__source__ = "https://projecteuler.net/problem=8"
+__source__ = "https://projecteuler.net/problem="+str(__problem__)
 __example__= "The four adjacent digits in the 1000-digit number that have the greatest product are 9 × 9 × 8 × 9 = 5832."
 __question__= "Find the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product?"
 

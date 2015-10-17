@@ -3,7 +3,7 @@ __email__  = "dbackx11@gmail.com"
 
 __problem__= 50
 __name__   = "Consecutive prime sum"
-__source__ = "https://projecteuler.net/problem=50"
+__source__ = "https://projecteuler.net/problem="+str(__problem__)
 __example__= """
 The prime 41, can be written as the sum of six consecutive primes:
 

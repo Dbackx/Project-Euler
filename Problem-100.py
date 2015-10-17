@@ -3,7 +3,7 @@ __email__  = "dbackx11@gmail.com"
 
 __problem__= 100
 __name__   = "Arranged probability"
-__source__ = "https://projecteuler.net/problem=100"
+__source__ = "https://projecteuler.net/problem="+str(__problem__)
 __example__= """
 If a box contains twenty-one coloured discs, composed of fifteen blue discs and six red discs, and two discs were taken at random, it can be seen that the probability of taking two blue discs, P(BB) = (15/21)×(14/20) = 1/2.
 
